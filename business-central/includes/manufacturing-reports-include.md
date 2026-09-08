@@ -1,0 +1,15 @@
+---
+author: brentholtorf
+ms.topic: include
+ms.date: 2026-09-08
+ms.author: bholtorf
+ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
+---
+
+The following table describes some of the key reports in manufacturing.
+
+| To... | Open in [!INCLUDE [prod_short](prod_short.md)] (CTRL+select) | Learn more | ID | 
+|-------|--------------------------------------------------------------| -----------|----|
+
+| [!INCLUDE [report-99000753-scenario](../includes/report-99000753-scenario-include.md)] | [Quantity Explosion of BOM](https://businesscentral.dynamics.com?report=99000753) | [About *Quantity Explosion of BOM*](../reports/report-99000753.md) | 99000753 |
