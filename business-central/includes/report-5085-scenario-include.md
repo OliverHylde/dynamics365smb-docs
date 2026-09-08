@@ -1,1 +1,1 @@
-Use the report when a sales or marketing employee needs to send printed materials to a contact or a segment of contacts and wants a standardized cover sheet showing both the contact's and the company's address along with company banking and registration details.
+Use the report when a salesperson or marketing employee needs to send a document, letter, or fax to a contact and wants a formatted cover sheet that includes both the contact's and the company's address and banking details.

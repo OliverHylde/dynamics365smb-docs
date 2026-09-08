@@ -1,6 +1,6 @@
 ---
 title: Contact Cover Sheet (report)
-description: Print a cover sheet with contact and company address details for mailing documents to a contact or segment.
+description: Print a cover sheet with contact and company address details for mailing or faxing documents to a contact.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,22 +17,23 @@ ai.usage: ai-assisted
 
 # Contact Cover Sheet (report)
 
-The **Contact Cover Sheet** report generates a printable cover page that shows the recipient contact's address alongside the sender company's address, along with company details such as VAT registration number, giro number, and bank account information. It can be run directly for one or more contacts, or triggered from a marketing segment to produce a cover sheet for each contact included in that segment.
+The **Contact Cover Sheet** report prints a cover page for correspondence sent to a contact, either directly from a contact card or as part of running a segment. It combines the contact's address with the company's address, along with company details such as VAT registration number, giro number, and bank account information, and can optionally log the interaction with the contact.
 
-You can filter the report by contact number to limit output to specific contacts, or by segment number when running the report from a segment to include only the contacts on that segment's lines.
+You can filter the report by segment number or contact number, depending on whether it's run from a segment or directly from the Contact list, to control which contacts the cover sheet is generated for. You can also enable the Log Interaction option to record that the cover sheet was sent as a logged interaction against the contact.
 
 ## Use cases
 
 [!INCLUDE [report-5085-scenario](../includes/report-5085-scenario-include.md)]
 
-Sales and marketing employees can use the report to:
+Sales and relationship managers can use the report to:
 
-* Generate a printable cover sheet to accompany mailed brochures, quotes, or campaign materials sent to a contact.
-* Run the report directly from a marketing segment to produce a cover sheet for every contact on that segment.
-* Enable the Log Interaction option to automatically record the cover sheet as an interaction on the contact's history.,Administrative staff can use the report to:
+* Generate a printable cover sheet before mailing or faxing documents to a contact.
+* Include company banking and VAT details automatically so contacts have the information they need to respond or make payments.
+* Log the interaction against the contact record to keep a history of outbound communication.,Marketing and campaign coordinators can use the report to:
 
-* Print company address and banking details automatically so they don't need to be typed manually on outgoing correspondence.
-* Verify that the company's VAT registration number, giro number, and bank account details appear correctly before mailing documents to external contacts.
+* Run the cover sheet for all contacts in a segment as part of a mailing campaign.
+* Ensure consistent company and contact address formatting across all cover sheets sent in a campaign.
+* Track which contacts received a cover sheet by enabling interaction logging during the print run.
 
 ## Try the report
 
