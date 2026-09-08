@@ -1,0 +1,1 @@
+Use the report when finance or compliance teams need to document and submit payment practice statistics for a defined reporting period, so they can meet external reporting obligations or review internal payment performance trends.
