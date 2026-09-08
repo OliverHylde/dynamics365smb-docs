@@ -11,6 +11,7 @@ The following table describes some of the key reports for sales. The reports hel
 
 | To do this | Open this report in Business Central (CTRL+select) | Learn more | ID | 
 |-------|------------| ------------|----|
+| [!INCLUDE [report-1304-scenario](../includes/report-1304-scenario-include.md)] | [Standard Sales - Quote](https://businesscentral.dynamics.com?report=1304) | [About *Standard Sales - Quote*](../reports/report-1304.md) | 1304 |
 | [!INCLUDE [report-1305-scenario](../includes/report-1305-scenario-include.md)] | [Standard Sales - Order Conf.](https://businesscentral.dynamics.com?report=1305) | [About *Standard Sales - Order Conf.*](../reports/report-1305.md) | 1305 |
 | [!INCLUDE [report-4409-scenario](../includes/report-4409-scenario-include.md)] | [Customer - Top list Excel](https://businesscentral.dynamics.com?report=4409) | [About Customer - Top list Excel](../reports/report-4409.md) | 4409 |
 | [!INCLUDE [report-107-scenario](../includes/report-107-scenario-include.md)] | [Customer - Order Summary](https://businesscentral.dynamics.com?report=107) | [About Customer - Order Summary](../reports/report-107.md) | 107 |

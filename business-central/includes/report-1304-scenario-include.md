@@ -1,0 +1,1 @@
+Use the report when a salesperson or sales administrator needs to send a customer a formal price proposal for goods or services and wants a printable or emailable document that reflects the quote's current lines, discounts, and totals.
