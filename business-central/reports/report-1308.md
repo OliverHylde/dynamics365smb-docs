@@ -1,6 +1,6 @@
 ---
 title: Standard Sales - Shipment (report)
-description: Print or email a formatted posted sales shipment document that shows shipped items, quantities, and optional lot or serial number tracking details.
+description: Print or email a formatted posted sales shipment document that shows shipped items, quantities, and optional lot or serial number tracking.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,9 +17,9 @@ ai.usage: ai-assisted
 
 # Standard Sales - Shipment (report)
 
-The **Standard Sales - Shipment** report generates a formatted document for a posted sales shipment, showing company and customer address information, shipment and order references, and the shipped item lines with quantities and units of measure. It can optionally include assembly component details for items supplied through linked assembly orders, and an appendix listing lot and serial numbers for tracked items. The report supports RDLC and Word layouts and can log the printing as a customer interaction.
+The **Standard Sales - Shipment** report generates a printable document for one or more posted sales shipments, showing company and customer address information, shipment and order references, and the shipped item lines with quantities and units of measure. It can also include assembly component details for items supplied through linked assembly orders, and an appendix listing lot and serial numbers used in the shipment. The report supports RDLC and Word rendering layouts, and it logs the printing action and, optionally, an interaction record against the customer or contact.
 
-You can filter the report by shipment number, sell-to customer number, and whether the document has already been printed (No. Printed), so you can reprint a specific shipment or run a batch for a customer or set of unprinted shipments. Request page options let you show assembly components used in linked assembly orders, include or exclude correction lines from undone quantity postings, hide lines with zero quantity, and add a serial/lot number appendix to the printed document.
+You can filter the report by the posted shipment **No.**, **Sell-to Customer No.**, and **No. Printed** to select which shipments to include. On the request page you can also choose to log the interaction with the customer, show assembly components used to supply the shipped items, show correction lines from undone quantity postings, print a lot/serial number appendix, and hide lines that have zero quantity.
 
 ## Use cases
 
@@ -27,15 +27,15 @@ You can filter the report by shipment number, sell-to customer number, and wheth
 
 Warehouse and shipping staff can use the report to:
 
-* Print a packing confirmation for a customer immediately after posting a sales shipment.
-* Include the shipping agent code and package tracking number on the document for carrier reference.
-* Add a lot/serial number appendix so item tracking details travel with the shipment paperwork.
-* Hide zero-quantity lines to keep the printed document limited to items actually shipped.,Sales and customer service teams can use the report to:
+* Print a shipment confirmation immediately after posting to hand to the driver or include with the package.
+* Include the lot/serial number appendix to give the customer traceability information for tracked items.
+* Hide zero-quantity lines to keep the printed document focused on items that actually shipped.
+* Show assembly components when a shipped item was supplied through a linked assembly order.,Customer service and sales representatives can use the report to:
 
-* Email a posted shipment confirmation to the customer's sell-to or bill-to contact.
-* Log the shipment printing as a customer interaction for CRM and segment tracking.
-* Reprint a shipment document for a customer by filtering on the sell-to customer number.
-* Verify project (job) number and task references on shipment lines tied to project sales.
+* Reprint a specific posted shipment by filtering on the shipment number when a customer requests a copy.
+* Filter by Sell-to Customer No. to reprint all recent shipments for one account.
+* Enable Log Interaction so a record of sending the document is stored against the customer or contact.
+* Review shipping agent code and package tracking number on the document before responding to a customer inquiry.
 
 ## Try the report
 

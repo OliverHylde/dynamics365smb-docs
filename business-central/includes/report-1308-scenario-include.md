@@ -1,1 +1,1 @@
-Use the report when a warehouse or sales employee needs to send a customer a printed or emailed confirmation of what was shipped on a posted sales shipment, including item tracking details for lot- or serial-controlled items.
+Use the report when warehouse or customer service staff need to send a customer a printed or emailed confirmation of what was shipped on a posted sales shipment, including item tracking details for lot- or serial-controlled items.
