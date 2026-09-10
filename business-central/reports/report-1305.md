@@ -1,44 +1,40 @@
 ---
 title: Standard Sales - Order Conf. (report)
-description: Print or email a formatted sales order confirmation that shows customer, shipment, and pricing details for a released sales order.
+description: Generate a sales order confirmation document that communicates order details, pricing, and delivery information to customers.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_1305_Primary
-ms.date: 2026-09-08
+ms.date: 2026-09-10
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 2026-09-08
+ - ai-seo-date: 2026-09-10
 ai.usage: ai-assisted
 ---
 
 # Standard Sales - Order Conf. (report)
 
-The **Standard Sales - Order Conf.** report generates a printable or emailable confirmation document for sales orders. It pulls together company and customer address information, order header details such as document number, external document number, salesperson, and quote number, and the full set of order lines with quantities, unit prices, discounts, VAT percentages, and line amounts. The report also calculates and displays subtotals, invoice discounts, VAT amount specifications, and the total amount including VAT, and can optionally include assembly component details, work descriptions, and a payment discount reminder.
+The **Standard Sales - Order Conf.** report produces a customer-facing confirmation for a sales order, combining company and customer address information, order header details such as document number, external document number, salesperson, and shipment method, with a full breakdown of order lines including item numbers, quantities, unit prices, line discounts, VAT percentages, and line amounts. It also calculates and prints VAT amount specifications, VAT clauses, and total amounts including VAT, and can optionally include assembly component details for assemble-to-order lines and a work description. The report is available in RDLC and Word rendering layouts, including versions designed for print and for use as email body text.
 
-You can filter the report by sales order number, sell-to customer number, and whether the order has already been printed, so you can target a single order, all orders for a specific customer, or only orders that haven't yet been confirmed. Request page options also let you choose whether to log the interaction with the customer, show assembly components used to supply the ordered items, and archive the document after printing.
+You can filter the report by sales order No., Sell-to Customer No., and No. Printed to control which orders are included, since the report requires at least one filter to run and will not print all orders unprompted. On the request page, you can also choose to show assembly components for linked assembly orders, log the customer interaction in the interaction log, and specify whether the printed document should be archived after printing.
 
 ## Use cases
 
 [!INCLUDE [report-1305-scenario](../includes/report-1305-scenario-include.md)]
 
-Sales administrators can use the report to:
+Sales order processors can use the report to:
 
-* Print or email an order confirmation immediately after entering a sales order to give the customer written confirmation of items, quantities, and prices.
-* Include assembly component details on the confirmation when items being sold are supplied by linked assembly orders.
-* Archive the confirmation and log the customer interaction automatically when the document is printed or sent.
-* Filter by sell-to customer number to reprint confirmations for a specific customer's outstanding orders.,Customer service representatives can use the report to:
+* Print or email an order confirmation to a customer immediately after entering or changing a sales order.
+* Confirm quoted prices, line discounts, VAT percentages, and shipment method before the order ships.
+* Include assembly component details on lines linked to assemble-to-order assembly orders so the customer sees what was used to fulfill the order.
+* Archive the confirmation and log the customer interaction for later reference in the interaction log.,Customer service representatives can use the report to:
 
-* Verify shipment method, shipment date, and ship-to address details with the customer before the order is fulfilled.
-* Confirm payment terms, payment method, and any applicable payment discount deadline shown on the document.
-* Resend a confirmation for an order that hasn't yet been printed by filtering on the 'No. Printed' field.,Controllers and finance teams can use the report to:
-
-* Review VAT amount specifications, invoice discount amounts, and totals including VAT before the order is invoiced.
-* Check the exchange rate text and local currency totals for orders placed in a foreign currency.
-* Use the VAT clause and VAT identifier breakdown to confirm the order complies with applicable tax reporting requirements.
+* Resend or reprint a confirmation for a specific customer or order number when a customer requests a copy.
+* Verify shipment date, ship-to address, and payment terms shown to the customer match what was agreed.
+* Use the email body layout to send a short cover message with the order number, due date, and total amount including VAT.
 
 ## Try the report
 

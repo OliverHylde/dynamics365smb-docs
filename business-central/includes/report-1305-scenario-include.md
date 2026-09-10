@@ -1,1 +1,1 @@
-Use the report when a sales order has been entered and a customer needs written confirmation of the order details, including items, quantities, prices, and totals, before shipment or invoicing.
+Use the report when a sales order has been entered or updated and a salesperson or order processor needs to send the customer written confirmation of items, prices, discounts, and shipment details before the order is fulfilled.
