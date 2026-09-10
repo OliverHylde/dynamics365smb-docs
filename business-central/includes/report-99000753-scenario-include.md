@@ -1,1 +1,1 @@
-Use the report when a production planner or manufacturing engineer needs to see the complete, multi-level component breakdown of an item's production BOM as of a given date to verify component quantities and unit of measure conversions before releasing production or purchase orders.
+Use the report when a production planner or manufacturing manager needs to see the fully exploded, indented BOM structure for one or more items as of a chosen calculation date to determine component quantities required at every level.
