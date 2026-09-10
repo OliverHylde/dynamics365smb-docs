@@ -1,6 +1,6 @@
 ---
 title: Standard Sales - Shipment (report)
-description: Print or email a formatted posted sales shipment document showing shipped items, quantities, and optional lot or serial number tracking details.
+description: Print or email a formatted posted sales shipment document that shows shipped items, quantities, and optional lot or serial number tracking details.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,9 +17,9 @@ ai.usage: ai-assisted
 
 # Standard Sales - Shipment (report)
 
-The **Standard Sales - Shipment** report generates a printable or emailable document for a posted sales shipment. It includes company and customer address information, shipment and order details, and a list of shipped items with quantities and units of measure. Optionally, it can include assembly component details for items supplied through linked assembly orders, and an appendix showing lot and serial number tracking information for shipped items.
+The **Standard Sales - Shipment** report generates a formatted document for a posted sales shipment, showing company and customer address information, shipment and order references, and the shipped item lines with quantities and units of measure. It can optionally include assembly component details for items supplied through linked assembly orders, and an appendix listing lot and serial numbers for tracked items. The report supports RDLC and Word layouts and can log the printing as a customer interaction.
 
-You can filter the report by posted sales shipment number, sell-to customer number, and whether the shipment has already been printed (No. Printed), so you can target a specific shipment, a specific customer's shipments, or only shipments that have not yet been printed. In the request page options, you can also choose to log the interaction with the customer contact, show assembly components used in linked assembly orders, show correction lines from undone quantity postings, print a serial/lot number appendix, and hide lines with zero quantity.
+You can filter the report by shipment number, sell-to customer number, and whether the document has already been printed (No. Printed), so you can reprint a specific shipment or run a batch for a customer or set of unprinted shipments. Request page options let you show assembly components used in linked assembly orders, include or exclude correction lines from undone quantity postings, hide lines with zero quantity, and add a serial/lot number appendix to the printed document.
 
 ## Use cases
 
@@ -27,17 +27,15 @@ You can filter the report by posted sales shipment number, sell-to customer numb
 
 Warehouse and shipping staff can use the report to:
 
-* Print a shipment confirmation to include in the package or hand to the driver, showing exactly what items and quantities were shipped.
-* Include the serial/lot number appendix so the customer can verify tracked items received against specific lot or serial numbers.
-* Show assembly component details for items that were shipped from linked assembly orders, to document what parts went into an assembled item.,Customer service representatives can use the report to:
+* Print a packing confirmation for a customer immediately after posting a sales shipment.
+* Include the shipping agent code and package tracking number on the document for carrier reference.
+* Add a lot/serial number appendix so item tracking details travel with the shipment paperwork.
+* Hide zero-quantity lines to keep the printed document limited to items actually shipped.,Sales and customer service teams can use the report to:
 
-* Email the posted shipment document to a customer as confirmation that their order has been shipped, using the built-in greeting and closing text.
-* Filter by a specific customer number to reprint or resend a shipment confirmation for that customer.
-* Enable interaction logging so the email or print action is recorded against the customer's contact for follow-up and history tracking.
-* Reference the shipping agent code and package tracking number on the document when a customer calls asking where their shipment is.,Project managers can use the report to:
-
-* Review shipment lines tied to a project number and project task number to confirm which materials were delivered against a specific project task.
-* Cross-check the project task description printed on the shipment against project records to validate billing or consumption.
+* Email a posted shipment confirmation to the customer's sell-to or bill-to contact.
+* Log the shipment printing as a customer interaction for CRM and segment tracking.
+* Reprint a shipment document for a customer by filtering on the sell-to customer number.
+* Verify project (job) number and task references on shipment lines tied to project sales.
 
 ## Try the report
 
