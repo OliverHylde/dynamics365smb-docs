@@ -1,25 +1,25 @@
 ---
 title: Standard Sales - Quote (report)
-description: Generate and send a formatted sales quote document that presents proposed items, prices, and terms to a customer.
+description: Generate a printed or emailed sales quote that presents item lines, prices, discounts, VAT, and totals to a prospective customer.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_1304_Primary
-ms.date: 2026-09-08
+ms.date: 2026-09-10
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 2026-09-08
+ - ai-seo-date: 2026-09-10
 ai.usage: ai-assisted
 ---
 
 # Standard Sales - Quote (report)
 
-The **Standard Sales - Quote** report produces a customer-facing document for a sales quote, showing company and customer address information, quote details such as document number, your reference, valid-to date, and salesperson, along with item lines that include quantity, unit price, discount percentage, VAT percentage, and line amount. It also calculates and displays VAT amount specifications and total amounts including VAT, and can optionally include a work description and archive the quote after printing or previewing.
+The **Standard Sales - Quote** report produces a customer-facing quote document based on a sales quote header and its lines. It includes company and customer address details, document identification such as quote number and validity date, salesperson and payment information, and a breakdown of item lines with quantities, prices, discounts, VAT percentages, and line amounts, followed by subtotal and VAT-inclusive total amounts. The report can be rendered as a Word or RDLC layout, or sent as an email body with a shorter summary layout, and it can optionally archive the quote and log a marketing interaction when printed.
 
-You can filter the report by quote number, sell-to customer number, and whether the quote has already been printed (No. Printed), which lets you generate quotes for a specific customer, reprint quotes that were already issued, or restrict output to a single quote or a range of quotes.
+You can filter the report by quote number, sell-to customer number, and whether the quote has already been printed (No. Printed), letting you reprint a specific quote, generate quotes for one customer, or limit output to quotes that haven't been printed yet. A filter is required before running the report, since printing without any filter is blocked to prevent accidentally generating every quote in the system.
 
 ## Use cases
 
@@ -27,14 +27,14 @@ You can filter the report by quote number, sell-to customer number, and whether 
 
 Sales representatives can use the report to:
 
-* Print or email a formatted quote to send to a prospective customer after building the sales quote lines.
-* Include a valid-to date and salesperson name on the quote so the customer knows the offer's terms and who to contact.
-* Add a work description to the quote when extra explanation of the proposed items or services is needed.
-* Reprint an existing quote for a customer without changing its content by filtering on the quote number.,Sales administrators and managers can use the report to:
+* Print or email a formal quote for a prospective customer before an order is created.
+* Confirm the quote validity date, payment terms, and shipment method shown to the customer.
+* Send the quote as an email body using the composite email layout with a greeting and cover text.
+* Reprint a previously issued quote by filtering on the quote number.,Sales managers and administrators can use the report to:
 
-* Archive quotes automatically after they are printed or previewed to keep a historical record of what was offered.
-* Log interactions with the contact when a quote is sent, to track customer communication in the CRM.
-* Review VAT amount specifications and discount breakdowns on the quote before it goes out to make sure pricing is correct.
+* Archive quotes automatically when they're printed, based on the Archive Quotes setup option.
+* Log customer interactions for marketing and CRM tracking when a quote is sent.
+* Review VAT amount specifications and invoice discount breakdowns before a quote is finalized into an order.
 
 ## Try the report
 
