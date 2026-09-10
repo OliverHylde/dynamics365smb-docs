@@ -1,6 +1,6 @@
 ---
 title: Deferral Summary - Purchasing (report)
-description: Analyze deferred purchasing expenses by vendor and posting period to verify recognition amounts and remaining balances.
+description: Review deferred purchasing expenses by vendor and posting period to verify accrual accuracy.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,9 +17,9 @@ ai.usage: ai-assisted
 
 # Deferral Summary - Purchasing (report)
 
-The **Deferral Summary - Purchasing** report lists posted purchase deferral schedules grouped by vendor, showing the recognized and remaining amounts as of a chosen balance date. It draws on posted deferral headers and lines linked to posted invoices, credit memos, and return receipts, and calculates how much of each deferred amount has been recognized versus how much remains outstanding. The report is available in Excel and Word layouts, with the Excel version intended for data analysis and the Word version for printed output, and each vendor's totals are summarized at the end of the report.
+The **Deferral Summary - Purchasing** report summarizes purchasing deferral activity by vendor and period, showing how much of each deferred expense has been recognized as of a chosen balance date and how much remains to be recognized in future periods. It draws on posted deferral headers and lines linked to posted purchase invoices, credit memos, and return receipts, and presents the deferral account, start date, number of periods, line description, and amounts for each transaction, with subtotals per vendor and grand totals across the report.
 
-You can filter the report by vendor number to limit results to specific vendors, by document number to focus on particular purchase documents, and by the Balance as of date, which determines the cutoff used to split amounts into recognized versus remaining deferred. You can also choose to print each vendor on a new page when multiple vendors are included, and hide posted deferral headers with a zero remaining amount unless the balance reaches zero within the current accounting period, which requires accounting periods to be configured.
+You can filter the report by vendor number to limit the report to specific vendors, by document number to focus on particular purchase documents, and by the Balance as of date, which determines the cutoff used to split amounts into recognized versus remaining deferred. You can also choose to print each vendor on a new page when reviewing multiple vendors, and hide posted deferral headers whose remaining amount is zero unless the deferral schedule ends within the current accounting period.
 
 ## Use cases
 
@@ -27,13 +27,14 @@ You can filter the report by vendor number to limit results to specific vendors,
 
 Controllers and finance teams can use the report to:
 
-* Verify that deferred purchasing expenses are being recognized on schedule as of a specific accounting date.
-* Reconcile remaining deferral balances across vendors before closing an accounting period.
-* Identify posted invoices, credit memos, or return receipts with outstanding deferred amounts that still need recognition.,Accounts payable clerks can use the report to:
+* Reconcile deferred expense balances against the general ledger as of month-end or period-end.
+* Verify that deferred amounts are being recognized on schedule for accrual accuracy.
+* Identify vendors with outstanding remaining deferred amounts that need review before period close.
+* Use the Hide Zero Remaining Amounts option to focus only on deferrals still active in the current accounting period.,Accounts payable clerks can use the report to:
 
-* Review deferral schedules by vendor to confirm start dates, number of periods, and deferral accounts are set up correctly.
-* Filter by document number to trace a specific purchase transaction's deferral activity.
-* Use the hide zero remaining amounts option to focus only on deferrals still requiring recognition.
+* Look up deferral details for a specific vendor or purchase document to answer inquiries.
+* Confirm the deferral start date and number of periods configured on a posted purchase line.
+* Check the total amount deferred versus the amount already recognized for a transaction.
 
 ## Try the report
 
