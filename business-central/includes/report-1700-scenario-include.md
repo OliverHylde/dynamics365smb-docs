@@ -1,1 +1,1 @@
-Use the report when a controller or accountant needs to reconcile deferred amounts on G/L accounts as of a specific balance date and see how much of each deferral has been recognized versus what remains outstanding.
+Use the report when a controller or accountant needs to reconcile deferred revenue or expense balances on G/L accounts as of a specific date and review how much has been recognized versus how much remains to be deferred.
