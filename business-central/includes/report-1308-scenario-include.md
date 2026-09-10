@@ -1,0 +1,1 @@
+Use the report when a warehouse or customer service employee needs to send a customer a confirmation of what was shipped against a sales order, including item tracking details such as lot or serial numbers.
