@@ -1,1 +1,1 @@
-Use the report when a controller or accounts payable clerk needs to reconcile deferred expense balances for vendors as of a specific date, producing a breakdown of recognized and remaining deferred amounts by document and period.
+Use the report when a finance team member needs to review deferred expenses on purchase transactions as of a specific date to reconcile expense deferral balances and confirm accrual accuracy.
