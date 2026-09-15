@@ -1,1 +1,1 @@
-Get an overview of sales orders that you can't fulfill because items are out of stock.
+Use the report when warehouse or sales staff need to review sales order lines whose shipment date has passed so they can follow up with customers and prioritize replenishment or shipping actions.

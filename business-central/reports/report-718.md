@@ -1,103 +1,49 @@
 ---
-title: Inventory Sales Back Orders (report)
-description: Get an overview of sales orders that can't be fulfilled because of out-of-stock items. 
+title: Inventory - Sales Back Orders (report)
+description: Identify sales order lines that are overdue for shipment because of insufficient inventory.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_718_Primary
-ms.date: 10/03/2024
+ms.date: 2026-09-15
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/07/2024
+ - ai-seo-date: 2026-09-15
 ai.usage: ai-assisted
 ---
 
-# Inventory Sales Back Orders (report)
+# Inventory - Sales Back Orders (report)
 
-The **Inventory Sales Back Orders** report shows sales lines where you can't fulfill the outstanding quantity by the specified shipment date.
+The **Inventory - Sales Back Orders** report lists sales order lines for items whose shipment date has already passed, showing the outstanding quantity that still needs to be shipped. For each order line, it displays the item number and description, sales order number, customer name and phone number, shipment date, order quantity, and outstanding quantity. It also indicates whether the customer has other items on back order, and it provides subtotals of outstanding quantity per item so you can quickly gauge the size of the shortfall.
 
-The report groups data by item and includes:
-
-* Customer details.
-* The ship date.
-* Other back-ordered items for the customer.
-
-The report shows the following data for individual orders for each item:
-
-* Number
-* Customer name
-* Customer telephone number
-* Shipment date
-* Order quantity
-* Quantity on back order
-
-## Available layouts
-
-[!INCLUDE[introduced-in-2025rw2](../includes/introduced-in-2025rw2.md)]
-
-[!INCLUDE[available-layouts-excel-word](../includes/available-layouts-excel-word.md)]
+You can filter the report by item number, search description, assembly BOM, inventory posting group, statistics group, and bin filter to narrow the report to specific items or storage areas. You can also filter the sales order lines by shipment date to focus on orders overdue by a certain period, and by variant, location, or global dimension codes carried over from the item filters to scope the report to particular inventory segments.
 
 ## Use cases
 
 [!INCLUDE [report-718-scenario](../includes/report-718-scenario-include.md)]
 
-<!-- 
-Prompt
+Warehouse and shipping teams can use the report to:
 
-Below is a report in an ERP system. Provide 3-4 use cases for different personas working with sales and order fullfilment.
-Format like this:    
-  
-As a <persona>, use the report to    
-* use case 1  
-* use case 2    
+* Identify which sales order lines are overdue for shipment because stock isn't available.
+* Check the outstanding quantity per item to prioritize replenishment or picking.
+* See whether a customer has other back orders to consolidate follow-up communication.
+* Filter by bin or location to focus on back orders affecting a specific warehouse area.,Sales and customer service representatives can use the report to:
 
-Do not capitalize the persona names. 
-
-## Report description
-Shows a list with the order lines whose shipment date has been exceeded. The following information is shown for the individual orders for each item: number, customer name, customer's telephone number, shipment date, order quantity and quantity on back order. The report also shows whether there are other items for the customer on back order.
-
-### What the report does
-Shows sales lines where the outstanding quantity can't be fulfilled by the specified shipment date. 
-
-This information is grouped by item and includes detail on the customer that ordered the item, when it was due to be shipped, and whether the customer is also awaiting supply on any other back ordered items.
-
-### Use cases
-See an overview of sales orders that can't be fulfilled due to out-of-stock items. 
-
-Please include your data sources and URLs
--->
-
-Sales representatives use the report to:
-
-* Keep customers informed about the status of their orders.
-* Prioritize orders that are delayed, to ensure that they are fulfilled as soon as possible.
-* Identify any potential issues with order fulfillment and work with logistics teams to resolve them.
-
-Sales managers use the report to:
-
-* Identify orders that are delayed and take proactive measures to address customer complaints.
-* Monitor orders that they can't fulfill on time and work with logistics teams to resolve any issues.
-* Analyze trends in delayed shipments to identify areas for improvement in order fulfillment processes.
-
-Logistics coordinators use the report to:
-
-* Monitor orders that they can't fulfill on time and take action to expedite the process.
-* Identify trends in delayed shipments and work with sales and production teams to address the root causes.
-* Optimize shipment schedules to fulfill orders on time.
+* Contact customers proactively about orders whose shipment date has already passed.
+* Use the customer name and phone number columns to reach out without looking up each order separately.
+* Review all back-ordered lines for a customer to give a complete status update in one conversation.
 
 ## Try the report
 
-Try the report here: [Inventory Sales Back Orders](https://businesscentral.dynamics.com?report=718)
+Try the report here: [Inventory - Sales Back Orders](https://businesscentral.dynamics.com?report=718)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## Related information
 
-[Sales reports](../sales-reports.md)  
-[Ad hoc analysis of sales data](../ad-hoc-analysis-sales.md)  
-[Sales analytics overview](../sales-analytics-overview.md)  
+[Inventory reports](../inventory-reports.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
