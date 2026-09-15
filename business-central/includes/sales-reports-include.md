@@ -12,6 +12,7 @@ The following table describes some of the key reports for sales. The reports hel
 | To do this | Open this report in Business Central (CTRL+select) | Learn more | ID | 
 |-------|------------| ------------|----|
 | [!INCLUDE [report-1302-scenario](../includes/report-1302-scenario-include.md)] | [Standard Sales - Pro Forma Inv](https://businesscentral.dynamics.com?report=1302) | [About *Standard Sales - Pro Forma Inv*](../reports/report-1302.md) | 1302 |
+| [!INCLUDE [report-1303-scenario](../includes/report-1303-scenario-include.md)] | [Standard Sales - Draft Invoice](https://businesscentral.dynamics.com?report=1303) | [About *Standard Sales - Draft Invoice*](../reports/report-1303.md) | 1303 |
 | [!INCLUDE [report-1304-scenario](../includes/report-1304-scenario-include.md)] | [Standard Sales - Quote](https://businesscentral.dynamics.com?report=1304) | [About *Standard Sales - Quote*](../reports/report-1304.md) | 1304 |
 | [!INCLUDE [report-1305-scenario](../includes/report-1305-scenario-include.md)] | [Standard Sales - Order Conf.](https://businesscentral.dynamics.com?report=1305) | [About *Standard Sales - Order Conf.*](../reports/report-1305.md) | 1305 |
 | [!INCLUDE [report-1306-scenario](../includes/report-1306-scenario-include.md)] | [Standard Sales - Invoice](https://businesscentral.dynamics.com?report=1306) | [About *Standard Sales - Invoice*](../reports/report-1306.md) | 1306 |
