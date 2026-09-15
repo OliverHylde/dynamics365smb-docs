@@ -1,1 +1,1 @@
-Use the report when finance teams need to reconcile deferred sales revenue balances and review how deferral amounts are recognized across accounting periods.
+Use the report when finance teams need to review how sales-related revenue is being deferred and recognized across accounting periods, so they can reconcile deferred revenue balances as of a specific date.
