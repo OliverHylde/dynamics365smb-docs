@@ -1,1 +1,1 @@
-Analyze outstanding sales orders to understand expected sales volumes for items. To highlight overdue back orders, compare overall outstanding shipments with the planned shipment dates.
+Use the report when inventory planners or sales administrators need to see which sales orders for specific items have not yet been shipped, so they can identify overdue lines and anticipate upcoming shipment volume.
