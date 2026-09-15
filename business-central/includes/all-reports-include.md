@@ -12,5 +12,6 @@ The following table describes some of the key reports in all.
 | To... | Open in [!INCLUDE [prod_short](prod_short.md)] (CTRL+select) | Learn more | ID | 
 |-------|--------------------------------------------------------------| -----------|----|
 
+| [!INCLUDE [report-6626-scenario](../includes/report-6626-scenario-include.md)] | [Reference No Label](https://businesscentral.dynamics.com?report=6626) | [About *Reference No Label*](../reports/report-6626.md) | 6626 |
 | [!INCLUDE [report-6627-scenario](../includes/report-6627-scenario-include.md)] | [SN Label](https://businesscentral.dynamics.com?report=6627) | [About *SN Label*](../reports/report-6627.md) | 6627 |
 | [!INCLUDE [report-6628-scenario](../includes/report-6628-scenario-include.md)] | [Lot No Label](https://businesscentral.dynamics.com?report=6628) | [About *Lot No Label*](../reports/report-6628.md) | 6628 |
