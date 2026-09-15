@@ -1,1 +1,1 @@
-Analyze customer sales per item to understand sales trends, optimize inventory management, and improve marketing efforts. Assess the relationship between discounts, sales amounts, and volume of item sales.
+Use the report when inventory or sales managers need to review which customers purchased selected items over a given period, to analyze purchasing patterns and assess profitability by customer and item.
