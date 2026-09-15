@@ -1,1 +1,1 @@
-Analyze vendor purchases per item to manage inventory procurement and improve supply chain processes. Assess the relationship between discounts, cost amounts, and volume of item purchases.
+Use the report when purchasing or inventory managers need to review which vendors items were bought from during a specific period, so they can evaluate purchase volumes, costs, and discounts by vendor and item combination.

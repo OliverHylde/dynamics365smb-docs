@@ -1,91 +1,52 @@
 ---
-title: Inventory Vendor Purchases (report)
-description: Analyze your vendor purchases per item to manage inventory procurement and improve supply chain processes. Assess the relationship between discounts, the cost amount, and the volume of item purchases.
+title: Inventory - Vendor Purchases (report)
+description: Analyze invoiced quantities, cost amounts, and discount amounts by vendor and item to review inventory purchasing activity.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_714_Primary
-ms.date: 10/14/2024
+ms.date: 2026-09-15
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/07/2024
+ - ai-seo-date: 2026-09-15
 ai.usage: ai-assisted
-
 ---
 
-# Inventory Vendor Purchases (report)
+# Inventory - Vendor Purchases (report)
 
-The **Inventory Vendor Purchases** report shows a total of items purchased from vendors in a date period, grouped by items.
+The **Inventory - Vendor Purchases** report shows a list of the vendors that your company has purchased items from within a selected period. For each item and vendor combination, it displays invoiced quantity, cost amount, and discount amount, with subtotals per item and grand totals at the end of the report. It's used to analyze a company's item purchases and assess the relationship between purchase volume, cost, and discounts.
 
-Value entries for each combination of a vendor and an item are summed to calculate the total invoiced quantity, cost amount, and discount amount.
-
-The calculated cost amount includes added costs, such as item charges.
-
-## Available layouts
-
-[!INCLUDE[introduced-in-2026rw1](../includes/introduced-in-2026rw1.md)]
-
-[!INCLUDE[available-layouts-excel-word](../includes/available-layouts-excel-word.md)]
+You can filter the report by item number, item number 2, search description, assembly BOM, and inventory posting group to narrow the report to specific items or item groups. You can also filter the underlying value entries by posting date to restrict the report to a specific period, and by source number or source posting group to limit results to particular vendors or vendor groups. Additional filters on variant code, location code, and global dimension codes let you refine the data to specific inventory dimensions.
 
 ## Use cases
 
 [!INCLUDE [report-714-scenario](../includes/report-714-scenario-include.md)]
 
-<!-- 
-Prompt
-Below is a report in an ERP system. Provide 3-4 use cases for different personas working with procurement.
-Format like this:    
-  
-As a <persona>, use the report to    
-* use case 1  
-* use case 2    
+Purchasing managers can use the report to:
 
-Do not capitalize the persona names. 
+* Review which vendors supplied a given item over a selected period to evaluate sourcing decisions.
+* Compare invoiced quantities and cost amounts across vendors for the same item to identify the most cost-effective supplier.
+* Track discount amounts received from each vendor to verify negotiated terms are being applied correctly.,Inventory and supply chain teams can use the report to:
 
-## Report description
-Displays a list of the vendors that your company has purchased items from within a selected period. It shows invoiced quantity, amount, and discount. The report can be used to analyze a company's item purchases.
+* Analyze purchase volume by item and vendor to plan future procurement and inventory replenishment.
+* Identify items with concentrated vendor dependency to assess supply chain risk.
+* Use item and posting date filters to focus the review on a specific product line or reporting period.,Controllers and finance teams can use the report to:
 
-### What the report does
-Shows a total of items purchased from vendors in the given date period, grouped by items.
-
-Value entries for each vendor/item combination is summed up to calculate the total invoiced quantity, cost amount and discount amount.
-
-Added costs such as item charges are also included in the calculated cost amount.
-
-### Use cases
-Analyze your vendor purchases per item to manage inventory procurement and improve supply chain processes.
-Assess the relationship between discounts, cost amount, and volume of item purchases.
-
-Please include your data sources and URLs
- -->
-
-Procurement specialists use the report to:
-
-* Analyze item purchases. The report displays a list of vendors that your company purchased from in a selected period, showing the invoiced quantity, amount, and discount. Use this information to analyze item purchases and manage inventory procurement.
-
-Procurement managers use the report to:
-
-* Analyze procurement performance. The report shows a total of items purchased from vendors in a period, grouped by items. Use this information to analyze procurement performance and identify areas for improvement.
-* Improve supply chain processes. The report provides information about the total invoiced quantity, cost amount, and discount amount for each combination of a vendor and an item. The analysis helps you assess the relationship between discounts, the cost amount, and the volume of item purchases. Use this information to improve supply chain processes and optimize procurement strategies.
-
-Controllers use the report to:
-
-* Monitor vendor spending. The report provides information about the total invoiced quantity, cost amount, and discount amount for each combination of a vendor and an item. The analysis helps you monitor vendor spending and identify potential issues.
+* Verify total cost amounts and discount amounts per vendor against purchase invoices for reconciliation.
+* Review subtotals per item to spot unexpected cost or discount variances.
+* Use the report totals to support period-end purchasing cost analysis.
 
 ## Try the report
 
-Try the report here: [Inventory Vendor Purchases](https://businesscentral.dynamics.com?report=714)
+Try the report here: [Inventory - Vendor Purchases](https://businesscentral.dynamics.com?report=714)
 
 [!INCLUDE[ctrl-right-click-to-open-in-new-tab](../includes/ctrl-right-click-to-open-in-new-tab.md)]
 
 ## Related information
 
-[Purchase reports](../purchase-reports.md)  
-[Ad hoc analysis of purchasing data](../ad-hoc-analysis-purchasing.md)  
-[Purchasing analytics overview](../purchasing-analytics-overview.md)  
+[Inventory reports](../inventory-reports.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
-
