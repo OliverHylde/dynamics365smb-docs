@@ -1,59 +1,39 @@
 ---
 title: Salesperson - Sales Statistics (report)
-description: Analyze sales and profitability per salesperson to understand revenue contribution, compare margins, and evaluate the impact of discounts on overall performance. 
+description: Analyze sales, profit, and discount performance by salesperson for a selected period in Business Central.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_114_Primary
-ms.date: 03/10/2026
+ms.date: 2026-09-15
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/07/2024
+ - ai-seo-date: 2026-09-15
 ai.usage: ai-assisted
 ---
 
 # Salesperson - Sales Statistics (report)
 
-The **Salesperson - Sales Statistics** report shows sales performance summarized by salesperson for a selected period. For each salesperson code, the report aggregates total sales amount, profit, adjusted profit, profit percentage, and adjusted profit percentage, along with related discount and payment figures. The totals provide an at-a-glance view of how much revenue each salesperson generated and how profitable those sales were. 
+The **Salesperson - Sales Statistics** report shows sales, profit, and adjusted profit amounts in LCY and as percentages for each salesperson over a selected period. It also includes invoice discount, payment discount given, and payment tolerance amounts, giving a full picture of how each salesperson's sales activity translates into net profitability. The report is calculated from customer ledger entries filtered by salesperson code and posting date, and it provides column totals across all salespeople included in the selection.
 
-The report is based on posted sales and presents monetary results such as sales, profit, invoice discounts, payment discounts, and payment tolerances. By including both profit and adjusted profit metrics, it allows comparison of raw and adjusted profitability per salesperson, as well as overall totals across all salespeople in the period. 
-
-## Available layouts
-
-[!INCLUDE[introduced-in-2025rw2](../includes/introduced-in-2025rw2.md)]
-
-[!INCLUDE[available-layouts-excel-word](../includes/available-layouts-excel-word.md)]
+You can filter the report by salesperson code to include only specific salespeople or teams, and by posting date to restrict the analysis to a specific period, such as a month, quarter, or fiscal year. Additional customer ledger entry filters, such as document type or customer, can be applied to narrow the underlying transactions used to calculate sales, profit, and discount amounts.
 
 ## Use cases
 
 [!INCLUDE [report-114-scenario](../includes/report-114-scenario-include.md)]
 
-Sales representatives can use the report to:
-
-* Review personal sales and profit performance for the period.
-* Compare profitability across deals to understand where margins are strongest.
-* Validate that posted sales and profits align with expectations and commissions.
-
 Sales managers can use the report to:
 
-* Compare sales and profit performance across salespeople.
-* Identify top-performing and underperforming salespeople based on revenue and margin.
-* Monitor the impact of discounts on overall profitability.
+* Compare sales and profit contributions across salespeople for a given period to identify top and bottom performers.
+* Review adjusted profit and adjusted profit percentage to see how cost changes after posting affect each salesperson's actual profitability.
+* Use invoice discount and payment discount given figures to assess how much margin was given away by each salesperson.,Controllers and finance teams can use the report to:
 
-Sales operations analysts can use the report to:
-
-* Analyze overall sales and profit distribution by salesperson.
-* Identify patterns in profitability that may indicate pricing or discounting issues.
-* Support management reporting with aggregated sales and margin figures.
-
-Finance managers can use the report to:
-
-* Review salesperson-level profitability as part of period-end analysis.
-* Reconcile sales and profit figures with the general ledger.
-* Assess whether sales activities are contributing to expected profit margins.
+* Verify sales and profit totals in LCY by salesperson as part of period-end financial reviews.
+* Check payment tolerance and payment discount amounts to understand their impact on realized profit.
+* Use the report totals row to reconcile aggregated sales and profit figures against other financial reports.
 
 ## Try the report
 
@@ -63,8 +43,6 @@ Try the report here: [Salesperson - Sales Statistics](https://businesscentral.dy
 
 ## Related information
 
-[Sales reports](../sales-reports.md)  
-[Ad hoc analysis of sales data](../ad-hoc-analysis-sales.md)  
-[Sales analytics overview](../sales-analytics-overview.md)  
+[Sales reports](../sales-reports.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
