@@ -1,25 +1,25 @@
 ---
 title: Deferral Summary - G/L (report)
-description: Analyze how deferral entries affect general ledger accounts over time and reconcile recognized versus remaining deferred amounts as of a specific date.
+description: Analyze deferred G/L amounts by account and period, showing recognized and remaining balances as of a chosen date.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_1700_Primary
-ms.date: 2026-09-10
+ms.date: 2026-09-15
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 2026-09-10
+ - ai-seo-date: 2026-09-15
 ai.usage: ai-assisted
 ---
 
 # Deferral Summary - G/L (report)
 
-The **Deferral Summary - G/L** report shows posted deferral entries linked to general ledger accounts, summarizing how deferral amounts are recognized over time. For each posted deferral header, it displays the posting date, document type and number, deferral account, deferral start date, and number of periods, along with the amount recognized as of the specified balance date, the remaining amount deferred, and the total amount to defer. Totals are calculated per G/L account and for the report as a whole, giving finance teams a clear view of outstanding deferrals at any point in time.
+The **Deferral Summary - G/L** report summarizes posted deferral activity for general ledger accounts, showing how deferred amounts are recognized over time. For each G/L account, it lists the posted deferral lines, including posting date, document type and number, deferral account, deferral start date, and number of periods, together with the amount recognized as of a chosen balance date, the remaining amount still deferred, and the total amount originally deferred. The report includes subtotals per account and grand totals, and it can be run to open a new page per account for easier review.
 
-You can filter the report by G/L account number to limit the analysis to specific accounts, and by the Balance as of date to determine which posting dates count as recognized versus remaining deferred amounts. You can also choose to start each G/L account on a new page when printing multiple accounts, and enable the Hide Zero Remaining Amounts option to suppress posted deferral headers whose remaining amount is zero, unless the deferral reaches zero within the current accounting period based on the balance date.
+You can filter the report by G/L account number to limit the analysis to specific accounts, and by the balance as of date to control which posting dates count as recognized versus remaining. You can also choose to print each G/L account on a new page when multiple accounts are included, and you can hide posted deferral headers whose remaining amount is zero unless the deferral ends within the current accounting period, which requires accounting periods to be set up.
 
 ## Use cases
 
@@ -27,14 +27,14 @@ You can filter the report by G/L account number to limit the analysis to specifi
 
 Controllers and finance teams can use the report to:
 
-* Reconcile deferred revenue or expense balances on G/L accounts as of a period-end or any chosen balance date.
-* Review how much of each deferral has been recognized versus how much remains outstanding.
-* Use the Hide Zero Remaining Amounts option to focus only on deferrals that still require attention.
-* Verify that deferral schedules align with posted G/L entries before closing an accounting period.,Accountants can use the report to:
+* Reconcile deferred revenue or expense balances on specific G/L accounts as of period end.
+* Verify that recognized amounts match expected recognition schedules before closing the books.
+* Identify deferral lines with remaining balances that still need to be recognized in future periods.
+* Review deferral activity account by account using the new-page-per-account print option.,Auditors and accounting reviewers can use the report to:
 
-* Trace individual posted deferral headers back to their source document type and number.
-* Check the deferral start date and number of periods to confirm recognition schedules are correct.
-* Print or export account-by-account deferral details, with each G/L account starting on a new page if needed.
+* Trace posted deferral entries back to their source documents and posting dates for audit evidence.
+* Confirm that total deferred amounts, recognized amounts, and remaining amounts tie out for each account.
+* Filter out fully recognized deferral headers to focus review on active or ending deferrals.
 
 ## Try the report
 
