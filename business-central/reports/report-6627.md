@@ -1,6 +1,6 @@
 ---
 title: SN Label (report)
-description: Print labels for serial number tracked items, showing the item description and serial number as both text and a 2D barcode.
+description: Print serial number labels for tracked items, including both a linear barcode and a QR code.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,23 +17,23 @@ ai.usage: ai-assisted
 
 # SN Label (report)
 
-The **SN Label** report prints labels for items tracked by serial number, using data from the Serial No. Information table. Each label includes the item number, description, variant code, and the serial number rendered both as text with a 1D barcode and as a 2D QR code, so items can be quickly identified and scanned on the shop floor or in the warehouse.
+The **SN Label** report generates printable labels for items tracked by serial number. For each serial number information record, it prints the item number, description, and serial number, along with the serial number encoded as both a Code39 barcode and a QR code, making it easy to identify and scan individual items throughout the warehouse.
 
-You can filter the report by Item No. to limit the labels printed to serial numbers associated with a specific item, letting you generate a targeted batch of labels rather than printing for the entire Serial No. Information table.
+You can filter the report by item number, letting you limit label printing to serial numbers associated with a specific item or range of items.
 
 ## Use cases
 
 [!INCLUDE [report-6627-scenario](../includes/report-6627-scenario-include.md)]
 
-Warehouse and inventory staff can use the report to:
+Warehouse staff can use the report to:
 
-* Print serial number labels for newly received items before putting them into storage.
-* Generate replacement labels for items whose original label is damaged or unreadable.
-* Scan the 2D QR code on printed labels during picking, put-away, or cycle counting to quickly identify serial numbers.,Quality control and production teams can use the report to:
+* Print labels for newly received serial-tracked items before put-away.
+* Scan the barcode or QR code on the label during picking, put-away, or shipping to quickly identify the correct serial number.
+* Reprint labels for items whose original labels are damaged or lost.,Inventory managers can use the report to:
 
-* Attach serial number labels to finished goods before they move to inventory or shipping.
-* Verify that the item description and serial number printed on the label match the physical unit.
-* Filter by item number to print labels only for the batch of items currently being processed.
+* Generate labels in bulk for a specific item or item range using the item number filter.
+* Ensure serial-tracked items are properly labeled to support accurate physical inventory counts.
+* Standardize label output across the warehouse using the predefined Word layout.
 
 ## Try the report
 
@@ -43,6 +43,6 @@ Try the report here: [SN Label](https://businesscentral.dynamics.com?report=6627
 
 ## Related information
 
-[Warehousemanagement reports](../warehousemanagement-reports.md)
+[All reports](../all-reports.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
