@@ -1,1 +1,1 @@
-Use the report when purchasing or inventory managers need to review which vendors items were bought from during a specific period, so they can evaluate purchase volumes, costs, and discounts by vendor and item combination.
+Use the report when inventory or purchasing managers need to review which vendors items were bought from during a specific period and assess the invoiced quantity, cost, and discount amounts for each vendor-item combination.
