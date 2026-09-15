@@ -1,59 +1,39 @@
 ---
 title: Salesperson - Commission (report)
-description: Analyze the commissions by salesperson. Review the customer, document, sales amounts and profit amounts provided by a salesperson's contributions.
+description: Calculate and review commission amounts earned by salespeople based on invoiced sales and profit for a selected period.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_115_Primary
-ms.date: 03/10/2026
+ms.date: 2026-09-15
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 10/07/2024
+ - ai-seo-date: 2026-09-15
 ai.usage: ai-assisted
 ---
 
 # Salesperson - Commission (report)
 
-The **Salesperson - Commission** report shows sales performance and commission earnings for each salesperson over a selected period. The report lists posted sales documents by posting date and document number, and includes sales amount, profit, and adjusted profit per transaction.
+The **Salesperson - Commission** report lists invoices and credit memos posted for each salesperson over a selected period, showing the sales amount, profit amount, and adjusted profit amount for each entry along with the commission calculated on each of those figures based on the salesperson's commission percentage. The report also provides subtotals per salesperson and grand totals for all salespeople, with all amounts shown in LCY.
 
-For each line, the report calculates sales-based, profit-based, and adjusted profit-based commissions using the salesperson's commission percentage. The report is grouped by salesperson and ends with subtotals per salesperson and an overall total, providing a clear breakdown of revenue, profitability, and earned commissions for the period.
-
-## Available layouts
-
-[!INCLUDE[introduced-in-2025rw2](../includes/introduced-in-2025rw2.md)]
-
-[!INCLUDE[available-layouts-excel-word](../includes/available-layouts-excel-word.md)]
+You can filter the report by salesperson code to limit the report to specific salespeople, and by posting date on the customer ledger entries to restrict the report to a specific period. Both filters are echoed in the report header so you can confirm which salespeople and date range the figures cover.
 
 ## Use cases
 
 [!INCLUDE [report-115-scenario](../includes/report-115-scenario-include.md)]
 
-Sales representatives can use the report to:
-
-* Track personal sales performance and understand how individual transactions contribute to commission earnings.
-* Verify commission calculations per invoice and identify discrepancies early.
-* Understand the relationship between sales volume, profit, and commission outcomes.
-
 Sales managers can use the report to:
 
-* Compare performance and commission payouts across salespeople.
-* Evaluate whether commission structures align with profitability goals.
-* Identify top-performing salespeople based on sales, profit, or adjusted profit.
+* Review each salesperson's invoiced sales and profit for a chosen period before approving commission payouts.
+* Compare commission amounts calculated on sales versus profit to decide which basis to use for payment.
+* Filter the report to a single salesperson to verify individual performance and commission calculations.,Controllers and finance teams can use the report to:
 
-Finance managers can use the report to:
-
-* Validate commission liabilities before payroll or commission settlements.
-* Reconcile commission expenses with posted sales and profit figures.
-* Support audit and compliance activities by providing a transparent commission calculation trail.
-
-Sales operations analysts can use the report to:
-
-* Analyze trends in sales and commission over time.
-* Assess the impact of pricing, discounts, or cost adjustments on commission payouts.
-* Provide data to refine commission models and incentive programs.
+* Use the adjusted profit and adjusted profit commission columns to account for changes in the original cost of goods sold before finalizing payouts.
+* Run the report for a specific posting date range to reconcile commission expense with the corresponding accounting period.
+* Check subtotals per salesperson and the grand total to validate total commission liability before posting entries.
 
 ## Try the report
 
@@ -63,8 +43,6 @@ Try the report here: [Salesperson - Commission](https://businesscentral.dynamics
 
 ## Related information
 
-[Sales reports](../sales-reports.md)  
-[Ad hoc analysis of sales data](../ad-hoc-analysis-sales.md)  
-[Sales analytics overview](../sales-analytics-overview.md)  
+[Sales reports](../sales-reports.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

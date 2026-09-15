@@ -1,1 +1,1 @@
-Analyze the commissions by salesperson. See the customer, document, sales amounts and profit amounts provided by a salesperson's contributions.
+Use the report when a sales manager or finance team needs to review or pay out commissions for one or more salespeople for a specific posting date period, and see the sales, profit, and adjusted profit that the commission amounts are based on.
