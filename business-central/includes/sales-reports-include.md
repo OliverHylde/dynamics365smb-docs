@@ -38,5 +38,6 @@ The following table describes some of the key reports for sales. The reports hel
 | [!INCLUDE [deprecated_sales_report](deprecated-sales-report-include.md)] | [Sales Reservation Avail.](https://businesscentral.dynamics.com?report=209) | [About Sales Reservation Avail.](../reports/report-209.md) | 209 |
 | [!INCLUDE [report-6166-scenario](../includes/report-6166-scenario-include.md)] | [PostedSalesInvoiceWithQR](https://businesscentral.dynamics.com?report=6166) | [About *PostedSalesInvoiceWithQR*](../reports/report-6166.md) | 6166 |
 | [!INCLUDE [report-6168-scenario](../includes/report-6168-scenario-include.md)] | [PostedSalesCrdMemoWithQR](https://businesscentral.dynamics.com?report=6168) | [About *PostedSalesCrdMemoWithQR*](../reports/report-6168.md) | 6168 |
+| [!INCLUDE [report-8010-scenario](../includes/report-8010-scenario-include.md)] | [Contract Sales Order Conf.](https://businesscentral.dynamics.com?report=8010) | [About *Contract Sales Order Conf.*](../reports/report-8010.md) | 8010 |
 | [!INCLUDE [report-8011-scenario](../includes/report-8011-scenario-include.md)] | [Contract Standard Sales Quote](https://businesscentral.dynamics.com?report=8011) | [About *Contract Standard Sales Quote*](../reports/report-8011.md) | 8011 |
 
