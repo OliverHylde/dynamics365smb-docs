@@ -36,4 +36,5 @@ The following table describes some of the key reports for sales. The reports hel
 | [!INCLUDE [deprecated_sales_report](deprecated-sales-report-include.md)] | [Sales Statistics](https://businesscentral.dynamics.com?report=112)<br><br>**Note:** This report isn't available in the United States, Canada, and Mexico. Instead, use the **Customer Sales Statistics** ([10047](https://businesscentral.dynamics.com?report=10047)) report. | [About Sales Statistics](../reports/report-112.md) | 112 |
 | [!INCLUDE [deprecated_sales_report](deprecated-sales-report-include.md)] | [Customer - Sales list](https://businesscentral.dynamics.com?report=119) | [About Customer - Sales list](../reports/report-119.md) | 119 |
 | [!INCLUDE [deprecated_sales_report](deprecated-sales-report-include.md)] | [Sales Reservation Avail.](https://businesscentral.dynamics.com?report=209) | [About Sales Reservation Avail.](../reports/report-209.md) | 209 |
+| [!INCLUDE [report-6166-scenario](../includes/report-6166-scenario-include.md)] | [PostedSalesInvoiceWithQR](https://businesscentral.dynamics.com?report=6166) | [About *PostedSalesInvoiceWithQR*](../reports/report-6166.md) | 6166 |
 
