@@ -13,5 +13,6 @@ The following table describes some of the key reports in manufacturing.
 |-------|--------------------------------------------------------------| -----------|----|
 
 | [!INCLUDE [report-99000753-scenario](../includes/report-99000753-scenario-include.md)] | [Quantity Explosion of BOM](https://businesscentral.dynamics.com?report=99000753) | [About *Quantity Explosion of BOM*](../reports/report-99000753.md) | 99000753 |
+| [!INCLUDE [report-99000769-scenario](../includes/report-99000769-scenario-include.md)] | [Output Item Label](https://businesscentral.dynamics.com?report=99000769) | [About *Output Item Label*](../reports/report-99000769.md) | 99000769 |
 | [!INCLUDE [report-99000788-scenario](../includes/report-99000788-scenario-include.md)] | [Prod. Order - Shortage List](https://businesscentral.dynamics.com?report=99000788) | [About *Prod. Order - Shortage List*](../reports/report-99000788.md) | 99000788 |
 | [!INCLUDE [report-99000789-scenario](../includes/report-99000789-scenario-include.md)] | [Subcontractor - Dispatch List](https://businesscentral.dynamics.com?report=99000789) | [About *Subcontractor - Dispatch List*](../reports/report-99000789.md) | 99000789 |
